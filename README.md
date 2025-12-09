@@ -1,4 +1,6 @@
-# 🌐 Aprendizado HTML & CSS
+<div align="center">
+  
+# 🌐 Aprendizado HTML & CSS </div>
 
 Bem-vindo ao meu repositório de estudos em **HTML** e **CSS**!  
 Aqui registro minha evolução no desenvolvimento front-end, armazenando exercícios, anotações, mini-projetos e tudo que fizer parte da minha jornada como programadora.
