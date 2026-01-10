@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+/* media query */
+
+h1 {
+    color: rgb(180, 235, 86);
+    margin: 15px 5px;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color:crimson;
+        font-size: 24px;
+    }
+}
+
+/* min width (mobile first) */
+
+p {
+    background-color: lightgreen;
+    margin: 15px 5px;
+    padding: 10px 10px;
+    color: #333;
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        background-color: lightblue;
+    }  
+}
+
+/* landscape */
+
+h3 {
+    display: none;
+    margin: 15px 5px;
+    color: #fff;
+    background-color: rgb(255, 176, 80);
+}
+
+@media screen and (orientation: landscape) {
+    h3 {
+        display: block;
+    }
+}
