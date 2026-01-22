@@ -1,0 +1,206 @@
+:root {
+    --primaria: #535353;
+    --amarelo: #f6e45e;
+    --bege: #f5e9cc;
+    --dourado: #9d9451;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Source Serif 4", serif;
+    color: var(--bege);
+}
+
+.container {
+    background-image: url(../img/main_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+}
+.navbar-container {
+    height: 80px;
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin: 15px 20px;
+    text-align: left;
+}
+
+.navbar-items {
+    position: absolute;
+    top: 0;
+    right: 35%;
+    background-color: #2c2c2c;
+    width: 350px;
+    height: 40px;
+    border: 1px solid var(--dourado);
+    margin: 15px 20px;
+}
+
+.navbar-items ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 1.5rem;
+}
+
+.navbar-items ul li {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.navbar-items ul li a {
+    color: #fefefe;
+    transition: 0.5s;
+}
+
+.navbar-items ul li a:hover {
+    color: var(--bege);
+}
+
+.main-text {
+    text-align: center;
+}
+
+.main-text h1 {
+    text-align: center;
+    letter-spacing: 60px;
+    padding: 0 0 0 30px;
+    text-transform: uppercase;
+    font-size: 260px
+}
+
+.main-btn {
+    background-color: #2c2c2c;
+    border: 1px solid var(--dourado);
+    width: 360px;
+    height: 50px;
+    text-align: center;
+    padding: 12px 0 0 0;
+    position: relative;
+    left: 35%;
+}
+
+.main-btn a {
+    color: #fefefe;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.main-btn a:hover {
+    color: var(--bege);
+}
+
+.main-content {
+    width: 280px;
+    height: 60px;
+    margin: 1.5rem 0 2rem 2rem;
+    text-align: left; 
+}
+
+.content {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #fefefe;
+    text-shadow: 1px 1px 3px #2c2c2c;
+}
+
+/* Seção Sobre Nós */
+
+.about {
+    background-color: var(--primaria);
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 3px;
+}
+
+.about-container {
+    position: relative;
+}
+
+.about-text {
+    position: relative;
+}
+
+.about-container .about-text h2 {
+    padding: 2rem 0 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+#about-desc1 {
+    font-size: 14px;
+    width: 800px;
+    height: 65px;
+    text-align: left;
+    margin: 0 2rem 1rem;
+    padding-left: 200px;
+
+}
+
+.about-image1 {
+    width: 680px;
+    height: 400px;
+    margin-left: 1rem;
+}
+
+.about-image2 {
+    width: 220px;
+    height: 150px;
+    position: absolute;
+    top: 130px;
+    right: 0;
+    padding-right: 1rem;
+}
+
+.about-container .about-text h4 {
+    font-size: 14px;
+    font-family: "Noto serif gujarati", serif;
+    font-weight: 400;
+    color: var(--amarelo);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 330px;
+    right: 450px;
+}
+
+#about-desc2 {
+    font-size: 12px;
+    width: 500px;
+    height: 65px;
+    text-align: left;
+    position: absolute;
+    top: 330px;
+    right: 45px;
+    margin-top: 1.5rem;
+}
+
+.about-btn {
+    background-color: var(--amarelo);
+    color: var(--primaria);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 1rem 3rem;
+    position: absolute;
+    bottom: 6px;
+    right: 380px; 
+}
